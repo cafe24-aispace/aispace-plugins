@@ -1,0 +1,8 @@
+{
+  "name": "aispace",
+  "version": "0.1.0",
+  "description": "카페24 AI SPACE — MCP 연결 온보딩과 배포·운영 파트너 (Deploy and operate web apps on Cafe24 AI SPACE)",
+  "author": "Cafe24 AI SPACE",
+  "homepage": "https://aispacedocs-docs.mycafe24.ai",
+  "_TODO": "제출 전 xai-org/plugin-marketplace의 기존 플러그인(Vercel 등) 구조와 대조해 매니페스트 필드 검증. 제출 시 marketplace.json 엔트리 + 커밋 SHA 40자 고정 + CI 검증 필요"
+}

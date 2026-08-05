@@ -1,0 +1,12 @@
+{
+  "_comment": "카페24 자체 Kimi Code 카탈로그. 사용자 안내: KIMI_CODE_PLUGIN_MARKETPLACE_URL=<이 파일의 호스팅 URL> 또는 /plugins marketplace <URL>. 공식 카탈로그(official/curated)는 Moonshot 접촉 후 진입.",
+  "plugins": [
+    {
+      "id": "aispace",
+      "displayName": "Cafe24 AI SPACE",
+      "version": "0.1.0",
+      "description": "카페24 AI SPACE — MCP 연결 온보딩과 배포·운영 파트너",
+      "source": "https://github.com/cafe24-aispace/aispace-plugins"
+    }
+  ]
+}

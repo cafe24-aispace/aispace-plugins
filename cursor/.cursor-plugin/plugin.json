@@ -1,0 +1,8 @@
+{
+  "name": "aispace",
+  "version": "0.1.0",
+  "description": "카페24 AI SPACE — MCP 연결 온보딩과 배포·운영 파트너. 연결 확인, 첫 배포, 로그 진단, 환경변수·백업 관리를 대화로 진행합니다.",
+  "author": "Cafe24 AI SPACE",
+  "homepage": "https://aispacedocs-docs.mycafe24.ai",
+  "_TODO": "제출 전 github.com/cursor/plugins의 create-plugin 스캐폴더와 review-plugin-submission으로 매니페스트 필드·구조를 검증할 것 (스키마 확정 필요)"
+}

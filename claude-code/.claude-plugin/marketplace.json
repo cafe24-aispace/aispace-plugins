@@ -1,0 +1,14 @@
+{
+  "name": "cafe24-aispace-plugins",
+  "owner": {
+    "name": "Cafe24 AI SPACE",
+    "url": "https://aispacedocs-docs.mycafe24.ai"
+  },
+  "plugins": [
+    {
+      "name": "cafe24-aispace",
+      "source": "./claude-code",
+      "description": "카페24 AI SPACE — MCP 연결 온보딩과 배포·운영 파트너"
+    }
+  ]
+}

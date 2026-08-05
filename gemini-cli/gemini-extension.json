@@ -1,0 +1,11 @@
+{
+  "name": "aispace",
+  "version": "0.1.0",
+  "description": "카페24 AI SPACE — MCP 연결 온보딩과 배포·운영 파트너 (Deploy and operate web apps on Cafe24 AI SPACE)",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "cafe24-ai-space": {
+      "httpUrl": "https://aih-proxy.cafe24.com/mcp"
+    }
+  }
+}

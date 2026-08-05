@@ -1,0 +1,11 @@
+{
+  "name": "cafe24-aispace",
+  "version": "1.1.0",
+  "description": "카페24 AI SPACE — MCP 연결 온보딩과 배포·운영 파트너. 연결 확인, 첫 배포, 로그 진단, 환경변수·백업 관리를 대화로 진행합니다.",
+  "author": {
+    "name": "Cafe24 AI SPACE",
+    "url": "https://aispacedocs-docs.mycafe24.ai"
+  },
+  "homepage": "https://aispacedocs-docs.mycafe24.ai",
+  "keywords": ["cafe24", "aispace", "mcp", "deploy", "hosting", "korea"]
+}
