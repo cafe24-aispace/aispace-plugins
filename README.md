@@ -10,7 +10,17 @@ Official plugins and agent skills for **[Cafe24 AI SPACE](https://aispace.cafe24
 
 ## Install
 
-### Any agent via skills.sh (Claude Code, Cursor, Codex, Antigravity, and more)
+### Plugin — one command, full bundle (recommended)
+
+Installs the skill **and registers the MCP server** into your detected agent tools (Codex CLI, GitHub Copilot CLI, Cursor, Grok Build, Kimi Code, ...), with auto-updates:
+
+```bash
+npx plugins add cafe24-aispace/aispace-plugins
+```
+
+> Claude Code users: use the official marketplace below instead (same plugin name — avoid double-install).
+
+### Skill only (lightweight alternative, 20+ agents)
 
 ```bash
 npx skills add cafe24-aispace/aispace-plugins
