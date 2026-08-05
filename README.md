@@ -39,6 +39,9 @@ kimi-code/            ← Kimi Code (자체 카탈로그 우회)
 ├── marketplace.json  # KIMI_CODE_PLUGIN_MARKETPLACE_URL용 자체 카탈로그
 └── plugin/AGENTS.md
 
+antigravity/          ← Antigravity CLI 네이티브 플러그인 (agy plugin install)
+├── plugin.json · mcp_config.json · AGENTS.md · skills/
+
 cline/                ← Cline MCP Marketplace 제출물
 └── llms-install.md   # Cline이 스스로 설치하는 문서 (제출 필수물)
 

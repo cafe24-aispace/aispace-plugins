@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "cafe24-aispace",
+  "description": "Cafe24 AI SPACE - MCP onboarding and deploy/operate partner. Registers the AI SPACE MCP server and guides connection, first deploy, log diagnosis, and operations."
+}
