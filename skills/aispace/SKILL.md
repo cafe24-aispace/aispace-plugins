@@ -32,7 +32,7 @@ AI SPACE MCP 도구(`list_my_projects`, `get_project_status`, `deploy_project` �
 - **Claude Code**: `claude mcp add --transport http cafe24-ai-space https://aih-proxy.cafe24.com/mcp`
 - **Claude 웹/Desktop**: 설정 → 커넥터 → 커넥터 추가 → 위 주소 (Claude는 MCP를 '커넥터'라 부른다)
 - **ChatGPT**: 설정 → 플러그인(영어 UI: Apps) → 개발자 모드 → 만들기 → 위 주소
-- **브라우저 없는 서버 환경(OpenClaw·Hermes 등)**: 동봉된 `AGENTS.md`의 "에이전트 프레임워크"
+- **브라우저 없는 서버 환경(OpenClaw·Hermes 등)**: 동봉된 `OPERATIONS.md`의 "에이전트 프레임워크"
   절 참조 — 인증 URL 붙여넣기 방식 + refresh 토큰 자동 갱신(OS 크론) 설정이 필수다
 
 등록 후 **브라우저 OAuth 1회**(카페24 로그인·승인)가 필요하다 — 사용자가 직접 클릭해야
@@ -72,6 +72,6 @@ AI SPACE MCP 도구(`list_my_projects`, `get_project_status`, `deploy_project` �
 
 - 이후 AI SPACE 관련 질문에는 이 스킬과 동봉 문서를 근거로 계속 응답한다.
 - 상세 절차 — 제작(1부)·가져와 배포(2부)·운영/트러블슈팅(3부)·헤드리스 인증 — 는 같은
-  디렉토리의 `AGENTS.md`에 참고 자료로 동봉돼 있다. 해당 작업을 할 때 관련 절을 찾아 읽는다.
+  디렉토리의 `OPERATIONS.md`에 참고 자료로 동봉돼 있다. 해당 작업을 할 때 관련 절을 찾아 읽는다.
 - 공식 문서: https://aispacedocs-docs.mycafe24.ai — 요금·콘솔 기능 등 이 스킬 범위 밖
   질문은 여기를 참조해 답한다.

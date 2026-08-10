@@ -76,7 +76,7 @@ MCP Servers → Remote Servers → add `cafe24-ai-space` with the MCP URL above.
 ## Repository layout
 
 ```
-core/          canonical operating guide (AGENTS.md) + AgentSkills-standard SKILL.md
+core/          canonical operating guide (OPERATIONS.md — kept as AGENTS.md/GEMINI.md etc. in per-channel copies) + AgentSkills-standard SKILL.md
 skills/        skills.sh discovery layout (mirror of core)
 claude-code/   Claude Code plugin package
 gemini-cli/    Gemini CLI extension source (published at cafe24-aispace/aispace-gemini)
@@ -89,7 +89,7 @@ cline/         Cline install guide (llms-install.md)
 chat-kit/      chat-client kit (ChatGPT / Claude web — attach & go)
 ```
 
-All adapters share one canonical core (`core/AGENTS.md`); per-channel folders only add packaging.
+All adapters share one canonical core (`core/OPERATIONS.md`); per-channel folders only add packaging.
 
 ## License
 
