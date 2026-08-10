@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "cafe24-ai-space": {
+      "type": "streamable-http",
+      "url": "https://aih-proxy.cafe24.com/mcp"
+    }
+  }
+}

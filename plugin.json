@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cafe24-aispace",
+  "version": "1.1.0",
+  "description": "Cafe24 AI SPACE - deploy and operate web apps by conversation. Registers the AI SPACE MCP server and guides connection, first deploy, log diagnosis, and operations.",
+  "author": {
+    "name": "Cafe24 AI SPACE",
+    "url": "https://aispacedocs-docs.mycafe24.ai"
+  },
+  "homepage": "https://aispacedocs-docs.mycafe24.ai",
+  "repository": "https://github.com/cafe24-aispace/aispace-plugins",
+  "license": "MIT",
+  "keywords": ["cafe24", "aispace", "mcp", "deploy", "hosting", "korea"]
+}

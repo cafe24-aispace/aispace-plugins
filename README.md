@@ -6,6 +6,7 @@ Official plugins and agent skills for **[Cafe24 AI SPACE](https://aispace.cafe24
 
 - **MCP server**: `https://aih-proxy.cafe24.com/mcp` (Streamable HTTP, OAuth 2.0)
 - **Docs**: https://aispacedocs-docs.mycafe24.ai
+- **Format**: conforms to the [Agent Plugins](https://agent-plugins.org) open standard v1.0.0 (root `plugin.json` + `mcp.json` + `skills/`), with client-specific manifests kept for backward compatibility.
 - After deploy, your app is live at `https://{id}-{project}.mycafe24.ai` with automatic SSL.
 
 ## Install
