@@ -76,6 +76,21 @@ MCP Servers → Remote Servers → add `cafe24-ai-space` with the MCP URL above.
 - **Guided onboarding**: on first use the agent checks the MCP connection, walks you through one-time OAuth, briefs your projects, and asks what you want to build.
 - **Deploy with guardrails**: pre-deploy checks that prevent the common build failures (Dockerfile, DB env vars, ports, persistent paths).
 - **Operations by conversation**: status, logs diagnosis, env vars, backups, access control.
+- **Field-tested FAQ built in**: answers distilled from real customer support cases (SSL renewal issues, GitHub auto-redeploy, DB access, deletion paths) plus deploy-failure triage rules — updated as new patterns emerge.
+
+## How the built-in knowledge works
+
+You never have to look anything up — installing the plugin embeds the knowledge into your agent, and it activates itself in conversation:
+
+```mermaid
+flowchart TD
+    A["npx plugins add cafe24-aispace/aispace-plugins<br/>(or hermes skills install · npx skills add)"] -->|"install = knowledge embedded"| B["Your AI agent<br/>SKILL.md (behavior) + OPERATIONS.md (knowledge)"]
+    B -->|"① you ask a question<br/>&quot;SSL stopped working&quot; · &quot;push doesn't redeploy&quot;"| C["Instant answer in chat<br/>no search, no support ticket"]
+    B -->|"② a deploy fails mid-work"| D{"Triage:<br/>code problem or infrastructure?"}
+    D -->|"code"| E["Agent fixes it and redeploys"]
+    D -->|"infrastructure"| F["Stops the retry loop and writes<br/>a ready-to-send support ticket<br/>(project · time · symptom)"]
+    G["Monthly updates from real support cases"] -.->|"plugin auto-update"| B
+```
 
 ## Repository layout
 
