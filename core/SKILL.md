@@ -77,5 +77,8 @@ AI SPACE MCP 도구(`list_my_projects`, `get_project_status`, `deploy_project` �
 - 이후 AI SPACE 관련 질문에는 이 스킬과 동봉 문서를 근거로 계속 응답한다.
 - 상세 절차 — 제작(1부)·가져와 배포(2부)·운영/트러블슈팅(3부)·헤드리스 인증 — 는 같은
   디렉토리의 `OPERATIONS.md`에 참고 자료로 동봉돼 있다. 해당 작업을 할 때 관련 절을 찾아 읽는다.
+- **반복 질문 즉답**: SSL이 풀렸다 · GitHub push 자동 재배포 안 됨 · DB 외부 접속/비밀번호 ·
+  삭제/해지 경로, 그리고 배포 실패 원인 판별(인프라 문제·포트 사용 중·헬스체크)은
+  `OPERATIONS.md` 5장(실측 FAQ·판별 규칙)을 먼저 참조해 답한다.
 - 공식 문서: https://aispacedocs-docs.mycafe24.ai — 요금·콘솔 기능 등 이 스킬 범위 밖
   질문은 여기를 참조해 답한다.
