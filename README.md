@@ -27,6 +27,8 @@ npx plugins add cafe24-aispace/aispace-plugins
 npx skills add cafe24-aispace/aispace-plugins
 ```
 
+After installing, just say **"Set up AI SPACE"** (or "AI SPACE 연결 확인해줘") — the skill activates and walks you through connection, first deploy, and operations.
+
 ### Claude Code (plugin)
 
 ```
@@ -56,6 +58,8 @@ One command — no tap required:
 ```bash
 hermes skills install cafe24-aispace/aispace-plugins/skills/aispace
 ```
+
+Then type **`/aispace`** in chat (after `/reload-skills` if you want it in the current session) — the skill starts guided onboarding: MCP registration, one-time OAuth, project briefing, and working-mode setup.
 
 (Optional: `hermes skills tap add cafe24-aispace/aispace-plugins` to make it browsable via `hermes skills browse`.)
 
