@@ -49,7 +49,17 @@ agy plugin install ./antigravity
 agy plugin import gemini
 ```
 
-### OpenClaw / Hermes (headless agents)
+### Hermes
+
+One command — no tap required:
+
+```bash
+hermes skills install cafe24-aispace/aispace-plugins/skills/aispace
+```
+
+(Optional: `hermes skills tap add cafe24-aispace/aispace-plugins` to make it browsable via `hermes skills browse`.)
+
+### OpenClaw / other headless agents
 
 Copy `openclaw/skills/aispace/` into your agent's skills directory — the skill includes the headless OAuth procedure (paste-back URL + token refresh).
 
