@@ -49,8 +49,9 @@ AI SPACE MCP 도구(`list_my_projects`, `get_project_status`, `deploy_project` �
 ### 4단계 — 소개·현황·상황 파악 (한 번에, 짧게)
 
 1. **할 수 있는 것 소개** (5줄 이내): 대화만으로 배포(`deploy_project`) · 상태/로그 진단 ·
-   환경변수/백업 관리 · GitHub 연동 배포 · 사이트 접속 검증(`site_verify`). 배포되면
-   `https://{계정}-{프로젝트}.mycafe24.ai`로 즉시 라이브, SSL 자동.
+   환경변수/백업 관리 · GitHub 연동 배포 · **접근 제어(`project_acl` — IP·국가(GeoIP) 단위
+   차단/허용, 오픈 전 IP 제한·해외 봇 차단에 유용)** · 사이트 접속 검증(`site_verify`).
+   배포되면 `https://{계정}-{프로젝트}.mycafe24.ai`로 즉시 라이브, SSL 자동.
    지원 런타임: Node.js 20 · PHP 8.2 · Python 3.11 · 정적 HTML (Go·Java·Rust 미지원).
 2. **현황 브리핑**: `list_my_projects` 결과를 요약한다. 프로젝트가 없으면 "첫 배포부터
    함께 하자"고 제안한다.
